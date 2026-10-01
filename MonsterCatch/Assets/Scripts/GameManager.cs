@@ -41,6 +41,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void takeInEnemyBattleInformation(Party p)
+    {
+        battleManager.setEnemy(p);
+    }
+
     public void toggleState(GameState state)
     {
         if (state == gameState)

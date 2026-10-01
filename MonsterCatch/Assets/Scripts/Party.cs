@@ -21,4 +21,9 @@ public class Party : MonoBehaviour
         Array.Copy(monsters, partyMonsters, monsters.Length);
         partySize = monsters.Length;
     }
+
+    public MonsterBattleInstance[] getMonsters()
+    {
+        return partyMonsters;
+    }
 }
