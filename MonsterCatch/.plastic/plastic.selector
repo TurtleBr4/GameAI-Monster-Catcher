@@ -1,0 +1,4 @@
+repository "Familiar Battlegrounds/MonsterCatch@2475557495292@cloud"
+  path "/"
+    br "/main"
+    co "/main"

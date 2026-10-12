@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 2aca5c6eaac1d9a46a7bc45f39edd0fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7411847036123864752
+    second: Clock Monster_0
+  - first:
+      213: 6867585410807050732
+    second: Clock Monster_1
+  - first:
+      213: -2289168316519188839
+    second: Clock Monster_2
+  - first:
+      213: 2479384214458776091
+    second: Clock Monster_3
+  - first:
+      213: -2465800384753109701
+    second: Clock Monster_4
+  - first:
+      213: -5930697164748265178
+    second: Clock Monster_5
+  - first:
+      213: -4952095959494436702
+    second: Clock Monster_6
+  - first:
+      213: 6496707524275939124
+    second: Clock Monster_7
+  - first:
+      213: -3312761044390736359
+    second: Clock Monster_8
+  - first:
+      213: 6985608449968645697
+    second: Clock Monster_9
+  - first:
+      213: 5208716921498664194
+    second: Clock Monster_10
+  - first:
+      213: 2667462499827475429
+    second: Clock Monster_11
+  - first:
+      213: 7209845527013243690
+    second: Clock Monster_12
+  - first:
+      213: 391613328835921398
+    second: Clock Monster_13
+  - first:
+      213: -7265013951699126055
+    second: Clock Monster_14
+  - first:
+      213: -4817231318563621042
+    second: Clock Monster_15
+  - first:
+      213: -4395318053283510817
+    second: Clock Monster_16
+  - first:
+      213: 4136761921581339512
+    second: Clock Monster_17
+  - first:
+      213: -643737384481348749
+    second: Clock Monster_18
+  - first:
+      213: 7964159167418811838
+    second: Clock Monster_19
+  - first:
+      213: 6299652448213234178
+    second: Clock Monster_20
+  - first:
+      213: 187476888857455549
+    second: Clock Monster_21
+  - first:
+      213: -1512799553929739159
+    second: Clock Monster_22
+  - first:
+      213: 8768441476560667367
+    second: Clock Monster_23
+  - first:
+      213: -3808402005618246952
+    second: Clock Monster_24
+  - first:
+      213: -1398215670827665085
+    second: Clock Monster_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Clock Monster_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 699
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0512e4ae364d32990800000000000000
+      internalID: -7411847036123864752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 699
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce13fcb8b809e4f50800000000000000
+      internalID: 6867585410807050732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 699
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9967bce6b8d3b30e0800000000000000
+      internalID: -2289168316519188839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_3
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 699
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ab6848eca886220800000000000000
+      internalID: 2479384214458776091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_4
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 701
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35f4cb4d97b7cdd0800000000000000
+      internalID: -2465800384753109701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 559
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62963c0d95ee1bda0800000000000000
+      internalID: -5930697164748265178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 559
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8dfa056fe964bb0800000000000000
+      internalID: -4952095959494436702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 559
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43723128211f82a50800000000000000
+      internalID: 6496707524275939124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_8
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 559
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e8653c165b602d0800000000000000
+      internalID: -3312761044390736359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_9
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 559
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1462958bfddd1f060800000000000000
+      internalID: 6985608449968645697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 419
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d7e717174194840800000000000000
+      internalID: 5208716921498664194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_11
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 419
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e364e1c20bb40520800000000000000
+      internalID: 2667462499827475429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_12
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 419
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b3013be448e0460800000000000000
+      internalID: 7209845527013243690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_13
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 419
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5c29a6f3a4f6500800000000000000
+      internalID: 391613328835921398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_14
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 419
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d877b87d4c7d2b90800000000000000
+      internalID: -7265013951699126055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 279
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e47f02873a1c52db0800000000000000
+      internalID: -4817231318563621042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_16
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 279
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5cc279481b003c0800000000000000
+      internalID: -4395318053283510817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 279
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873d738dc0bb86930800000000000000
+      internalID: 4136761921581339512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_18
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 279
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373a95d624cf017f0800000000000000
+      internalID: -643737384481348749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_19
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 279
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb54bac1190668e60800000000000000
+      internalID: 7964159167418811838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 139
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2027b20568cdc6750800000000000000
+      internalID: 6299652448213234178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 139
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbba1f3bc3d0a9200800000000000000
+      internalID: 187476888857455549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_22
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 139
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96406a322d4710be0800000000000000
+      internalID: -1512799553929739159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_23
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 139
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e24334d013cfa970800000000000000
+      internalID: 8768441476560667367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_24
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 139
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da3d3dbd86d52bc0800000000000000
+      internalID: -3808402005618246952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock Monster_25
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 117
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349bee4614a889ce0800000000000000
+      internalID: -1398215670827665085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Clock Monster_0: -7411847036123864752
+      Clock Monster_1: 6867585410807050732
+      Clock Monster_10: 5208716921498664194
+      Clock Monster_11: 2667462499827475429
+      Clock Monster_12: 7209845527013243690
+      Clock Monster_13: 391613328835921398
+      Clock Monster_14: -7265013951699126055
+      Clock Monster_15: -4817231318563621042
+      Clock Monster_16: -4395318053283510817
+      Clock Monster_17: 4136761921581339512
+      Clock Monster_18: -643737384481348749
+      Clock Monster_19: 7964159167418811838
+      Clock Monster_2: -2289168316519188839
+      Clock Monster_20: 6299652448213234178
+      Clock Monster_21: 187476888857455549
+      Clock Monster_22: -1512799553929739159
+      Clock Monster_23: 8768441476560667367
+      Clock Monster_24: -3808402005618246952
+      Clock Monster_25: -1398215670827665085
+      Clock Monster_3: 2479384214458776091
+      Clock Monster_4: -2465800384753109701
+      Clock Monster_5: -5930697164748265178
+      Clock Monster_6: -4952095959494436702
+      Clock Monster_7: 6496707524275939124
+      Clock Monster_8: -3312761044390736359
+      Clock Monster_9: 6985608449968645697
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

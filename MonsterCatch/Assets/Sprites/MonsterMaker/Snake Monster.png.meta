@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: 7ec6a851d7e48ba4abde32fcabe529e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5683371221669055958
+    second: Snake Monster_0
+  - first:
+      213: -7490060396168338329
+    second: Snake Monster_1
+  - first:
+      213: -514389799398389401
+    second: Snake Monster_2
+  - first:
+      213: -2010590310475494772
+    second: Snake Monster_3
+  - first:
+      213: 7247871827834949340
+    second: Snake Monster_4
+  - first:
+      213: 6273742938193746403
+    second: Snake Monster_5
+  - first:
+      213: -3930466499445714147
+    second: Snake Monster_6
+  - first:
+      213: -3635256156950615411
+    second: Snake Monster_7
+  - first:
+      213: 2372465377130178217
+    second: Snake Monster_8
+  - first:
+      213: -4563133587739505686
+    second: Snake Monster_9
+  - first:
+      213: 2015955667326361108
+    second: Snake Monster_10
+  - first:
+      213: 5816915002018240735
+    second: Snake Monster_11
+  - first:
+      213: -4136371108483830777
+    second: Snake Monster_12
+  - first:
+      213: -3186083897707050388
+    second: Snake Monster_13
+  - first:
+      213: -1819319094568969621
+    second: Snake Monster_14
+  - first:
+      213: 8587203212282225485
+    second: Snake Monster_15
+  - first:
+      213: -5713522660255113410
+    second: Snake Monster_16
+  - first:
+      213: -4150323356723845035
+    second: Snake Monster_17
+  - first:
+      213: -7759989110395003695
+    second: Snake Monster_18
+  - first:
+      213: 2003041723248048089
+    second: Snake Monster_19
+  - first:
+      213: -6109738230225014600
+    second: Snake Monster_20
+  - first:
+      213: 1309012701501186538
+    second: Snake Monster_21
+  - first:
+      213: 2463876567492758473
+    second: Snake Monster_22
+  - first:
+      213: 9191267707391516071
+    second: Snake Monster_23
+  - first:
+      213: 5118565663996399189
+    second: Snake Monster_24
+  - first:
+      213: 6046628759581886313
+    second: Snake Monster_25
+  - first:
+      213: -44808052590320507
+    second: Snake Monster_26
+  - first:
+      213: -8615820278816835879
+    second: Snake Monster_27
+  - first:
+      213: 3394727305100815706
+    second: Snake Monster_28
+  - first:
+      213: 458474832225566434
+    second: Snake Monster_29
+  - first:
+      213: 5236963480426161213
+    second: Snake Monster_30
+  - first:
+      213: -5517634995367972491
+    second: Snake Monster_31
+  - first:
+      213: -9138788020942379780
+    second: Snake Monster_32
+  - first:
+      213: 5330511497517195994
+    second: Snake Monster_33
+  - first:
+      213: 2329934653483996303
+    second: Snake Monster_34
+  - first:
+      213: 1482907405192315927
+    second: Snake Monster_35
+  - first:
+      213: 7008596271978969754
+    second: Snake Monster_36
+  - first:
+      213: -3996605818926445070
+    second: Snake Monster_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snake Monster_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 839
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd034aa3046fde40800000000000000
+      internalID: 5683371221669055958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 839
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7642a24f0c5fd0890800000000000000
+      internalID: -7490060396168338329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 839
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76946cae3358cd8f0800000000000000
+      internalID: -514389799398389401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_3
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 839
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a0443e3c2f814e0800000000000000
+      internalID: -2010590310475494772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_4
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 839
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdec9abc60d959460800000000000000
+      internalID: 7247871827834949340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_5
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 839
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9572b66ffc01750800000000000000
+      internalID: 6273742938193746403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 699
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1317f21b8d2479c0800000000000000
+      internalID: -3930466499445714147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 699
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a286129c9fc8dc0800000000000000
+      internalID: -3635256156950615411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 699
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6e1cdc0b0bce020800000000000000
+      internalID: 2372465377130178217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_9
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 699
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb0220bd2e7ca0c0800000000000000
+      internalID: -4563133587739505686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_10
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 699
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e5ce99ffc1afb10800000000000000
+      internalID: 2015955667326361108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_11
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 699
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd810ffff55d9b050800000000000000
+      internalID: 5816915002018240735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 559
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ce1ab6468a896c0800000000000000
+      internalID: -4136371108483830777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_13
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 559
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a449c5391c8c3d0800000000000000
+      internalID: -3186083897707050388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_14
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 559
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a91233cea70c6e0800000000000000
+      internalID: -1819319094568969621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_15
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 559
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43ec2a13dfdb2770800000000000000
+      internalID: 8587203212282225485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_16
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 559
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f595b796d75b0b0800000000000000
+      internalID: -5713522660255113410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 559
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558e77b75e61766c0800000000000000
+      internalID: -4150323356723845035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 419
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc910ea40bfe4490800000000000000
+      internalID: -7759989110395003695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 419
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d77c70b5db3ccb10800000000000000
+      internalID: 2003041723248048089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_20
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 419
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b070dc4379d53ba0800000000000000
+      internalID: -6109738230225014600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_21
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 419
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1e377dd1c8a2210800000000000000
+      internalID: 1309012701501186538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_22
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 419
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb80d71fa2713220800000000000000
+      internalID: 2463876567492758473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_23
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 419
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad179e4841fd8f70800000000000000
+      internalID: 9191267707391516071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 279
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e44022a5cc80740800000000000000
+      internalID: 5118565663996399189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_25
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 279
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9670a8702d0f9e350800000000000000
+      internalID: 6046628759581886313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 279
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584e646405fc06ff0800000000000000
+      internalID: -44808052590320507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_27
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 279
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6f380ea157e6880800000000000000
+      internalID: -8615820278816835879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_28
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 279
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d6ad97f7e7c1f20800000000000000
+      internalID: 3394727305100815706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_29
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 279
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eef2494e64dc5600800000000000000
+      internalID: 458474832225566434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_30
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 139
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34ae70f98e6da840800000000000000
+      internalID: 5236963480426161213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_31
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 139
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571f3d4943c6d63b0800000000000000
+      internalID: -5517634995367972491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_32
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 139
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4622ed6b08c2180800000000000000
+      internalID: -9138788020942379780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_33
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 139
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2e5a8f6f7c9f940800000000000000
+      internalID: 5330511497517195994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_34
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 139
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8459ca0937955020800000000000000
+      internalID: 2329934653483996303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_35
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 139
+        width: 122
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714c841ad68549410800000000000000
+      internalID: 1482907405192315927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 122
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9afe6d1d29834160800000000000000
+      internalID: 7008596271978969754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake Monster_37
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 0
+        width: 122
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd41afbe243988c0800000000000000
+      internalID: -3996605818926445070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snake Monster_0: 5683371221669055958
+      Snake Monster_1: -7490060396168338329
+      Snake Monster_10: 2015955667326361108
+      Snake Monster_11: 5816915002018240735
+      Snake Monster_12: -4136371108483830777
+      Snake Monster_13: -3186083897707050388
+      Snake Monster_14: -1819319094568969621
+      Snake Monster_15: 8587203212282225485
+      Snake Monster_16: -5713522660255113410
+      Snake Monster_17: -4150323356723845035
+      Snake Monster_18: -7759989110395003695
+      Snake Monster_19: 2003041723248048089
+      Snake Monster_2: -514389799398389401
+      Snake Monster_20: -6109738230225014600
+      Snake Monster_21: 1309012701501186538
+      Snake Monster_22: 2463876567492758473
+      Snake Monster_23: 9191267707391516071
+      Snake Monster_24: 5118565663996399189
+      Snake Monster_25: 6046628759581886313
+      Snake Monster_26: -44808052590320507
+      Snake Monster_27: -8615820278816835879
+      Snake Monster_28: 3394727305100815706
+      Snake Monster_29: 458474832225566434
+      Snake Monster_3: -2010590310475494772
+      Snake Monster_30: 5236963480426161213
+      Snake Monster_31: -5517634995367972491
+      Snake Monster_32: -9138788020942379780
+      Snake Monster_33: 5330511497517195994
+      Snake Monster_34: 2329934653483996303
+      Snake Monster_35: 1482907405192315927
+      Snake Monster_36: 7008596271978969754
+      Snake Monster_37: -3996605818926445070
+      Snake Monster_4: 7247871827834949340
+      Snake Monster_5: 6273742938193746403
+      Snake Monster_6: -3930466499445714147
+      Snake Monster_7: -3635256156950615411
+      Snake Monster_8: 2372465377130178217
+      Snake Monster_9: -4563133587739505686
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

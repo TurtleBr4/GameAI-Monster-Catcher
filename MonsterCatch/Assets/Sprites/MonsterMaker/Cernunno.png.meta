@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: b4476c5ef01d7634686cba9c130573d3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1602397943513106165
+    second: Cernunno_0
+  - first:
+      213: 8104548701430056166
+    second: Cernunno_1
+  - first:
+      213: -5215785729485460672
+    second: Cernunno_2
+  - first:
+      213: 3282317255874144586
+    second: Cernunno_3
+  - first:
+      213: 6902851598583932114
+    second: Cernunno_4
+  - first:
+      213: -5218512229198473750
+    second: Cernunno_5
+  - first:
+      213: 8998783961843746881
+    second: Cernunno_6
+  - first:
+      213: -959964616082974607
+    second: Cernunno_7
+  - first:
+      213: -5252454265654696639
+    second: Cernunno_8
+  - first:
+      213: 7784156218061570427
+    second: Cernunno_9
+  - first:
+      213: -957971363634047138
+    second: Cernunno_10
+  - first:
+      213: -4901145555548892
+    second: Cernunno_11
+  - first:
+      213: -3288509922420488516
+    second: Cernunno_12
+  - first:
+      213: -7025084502188052348
+    second: Cernunno_13
+  - first:
+      213: -6932756857513880704
+    second: Cernunno_14
+  - first:
+      213: 4066307314319297885
+    second: Cernunno_15
+  - first:
+      213: 3402971319254671211
+    second: Cernunno_16
+  - first:
+      213: -8083511586180396091
+    second: Cernunno_17
+  - first:
+      213: -2952551263288606055
+    second: Cernunno_18
+  - first:
+      213: 1488799670841540417
+    second: Cernunno_19
+  - first:
+      213: 1722026230244462501
+    second: Cernunno_20
+  - first:
+      213: -371628133250150241
+    second: Cernunno_21
+  - first:
+      213: -4519527467821502018
+    second: Cernunno_22
+  - first:
+      213: 5002706845058493586
+    second: Cernunno_23
+  - first:
+      213: -4670251467774290204
+    second: Cernunno_24
+  - first:
+      213: -5873886353375011250
+    second: Cernunno_25
+  - first:
+      213: -4005068923363027424
+    second: Cernunno_26
+  - first:
+      213: -1455567753584428274
+    second: Cernunno_27
+  - first:
+      213: 8003494509335561740
+    second: Cernunno_28
+  - first:
+      213: 6643056606051876636
+    second: Cernunno_29
+  - first:
+      213: -6107918761284149542
+    second: Cernunno_30
+  - first:
+      213: 1847567794109749071
+    second: Cernunno_31
+  - first:
+      213: -2682694663976440257
+    second: Cernunno_32
+  - first:
+      213: 2134795476017661905
+    second: Cernunno_33
+  - first:
+      213: 1995707685814603839
+    second: Cernunno_34
+  - first:
+      213: 7917507883511605939
+    second: Cernunno_35
+  - first:
+      213: -924735283606211484
+    second: Cernunno_36
+  - first:
+      213: 800820913745473858
+    second: Cernunno_37
+  - first:
+      213: 3821543171034405065
+    second: Cernunno_38
+  - first:
+      213: 2704351669902761299
+    second: Cernunno_39
+  - first:
+      213: -4662471615636386271
+    second: Cernunno_40
+  - first:
+      213: -6086329778420504049
+    second: Cernunno_41
+  - first:
+      213: 5191854896311126373
+    second: Cernunno_42
+  - first:
+      213: 1736727199650164519
+    second: Cernunno_43
+  - first:
+      213: 1949499263119550959
+    second: Cernunno_44
+  - first:
+      213: -2110143261408454007
+    second: Cernunno_45
+  - first:
+      213: -1627180246771826220
+    second: Cernunno_46
+  - first:
+      213: 4562191255794134657
+    second: Cernunno_47
+  - first:
+      213: 3299621310222555445
+    second: Cernunno_48
+  - first:
+      213: 5253658830414441949
+    second: Cernunno_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cernunno_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 839
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f64ae3907cdc3610800000000000000
+      internalID: 1602397943513106165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 839
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4879daa14297070800000000000000
+      internalID: 8104548701430056166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 839
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ba771738ecd97b0800000000000000
+      internalID: -5215785729485460672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 839
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49638c57222d8d20800000000000000
+      internalID: 3282317255874144586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 839
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d425deb4fadbcf50800000000000000
+      internalID: 6902851598583932114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_5
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 839
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5d792c6ce1497b0800000000000000
+      internalID: -5218512229198473750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 699
+        width: 123
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148cd20f55a12ec70800000000000000
+      internalID: 8998783961843746881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_7
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 699
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1781e6d84458da2f0800000000000000
+      internalID: -959964616082974607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 699
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145aaa09ca88b17b0800000000000000
+      internalID: -5252454265654696639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_9
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 699
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7145bd86d0e60c60800000000000000
+      internalID: 7784156218061570427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 699
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57989dce1a94b2f0800000000000000
+      internalID: -957971363634047138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_11
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 699
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4254b202f669eeff0800000000000000
+      internalID: -4901145555548892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 559
+        width: 130
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb687c916addc52d0800000000000000
+      internalID: -3288509922420488516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 607
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480baf1add2e18e90800000000000000
+      internalID: -7025084502188052348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_14
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 559
+        width: 133
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0835bb19e56e9cf90800000000000000
+      internalID: -6932756857513880704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_15
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 603
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d039945fc6e6830800000000000000
+      internalID: 4066307314319297885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 559
+        width: 133
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f54099268c93f20800000000000000
+      internalID: 3402971319254671211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_17
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 559
+        width: 133
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb86f76a0991df80800000000000000
+      internalID: -8083511586180396091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_18
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 559
+        width: 133
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9924d82f44e6607d0800000000000000
+      internalID: -2952551263288606055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_19
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 559
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f7a32a96749a410800000000000000
+      internalID: 1488799670841540417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_20
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 596
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af40a39bbdd5e710800000000000000
+      internalID: 1722026230244462501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_21
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 591
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9055198e26b7daf0800000000000000
+      internalID: -371628133250150241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_22
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 565
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1f0e7a6b96741c0800000000000000
+      internalID: -4519527467821502018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 431
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c602fbe5f2d6540800000000000000
+      internalID: 5002706845058493586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 419
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6119bb80fef2fb0800000000000000
+      internalID: -4670251467774290204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_25
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 419
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e51189b73cb7ea0800000000000000
+      internalID: -5873886353375011250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 419
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0269df1b8032b68c0800000000000000
+      internalID: -4005068923363027424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 419
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b361d07d8cccbe0800000000000000
+      internalID: -1455567753584428274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_28
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 419
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c064cb61adf121f60800000000000000
+      internalID: 8003494509335561740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_29
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 419
+        width: 123
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fb88a69c0e03c50800000000000000
+      internalID: 6643056606051876636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 279
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aded6bc6f305c3ba0800000000000000
+      internalID: -6107918761284149542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_31
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 279
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f471d52be11e3a910800000000000000
+      internalID: 1847567794109749071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_32
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 279
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e29d8aa6725cad0800000000000000
+      internalID: -2682694663976440257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_33
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 279
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7c420cc2150ad10800000000000000
+      internalID: 2134795476017661905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_34
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 279
+        width: 124
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f301f78019d22bb10800000000000000
+      internalID: 1995707685814603839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_35
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 279
+        width: 129
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba6017a873a0ed60800000000000000
+      internalID: 7917507883511605939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 139
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464b165b82eaa23f0800000000000000
+      internalID: -924735283606211484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_37
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 139
+        width: 130
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241b08cc0661d1b00800000000000000
+      internalID: 800820913745473858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_38
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 187
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c853534449d80530800000000000000
+      internalID: 3821543171034405065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 139
+        width: 133
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dd948f389c78520800000000000000
+      internalID: 2704351669902761299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_40
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 183
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ec6a6b4c29b4fb0800000000000000
+      internalID: -4662471615636386271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_41
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 139
+        width: 133
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a2d533053098ba0800000000000000
+      internalID: -6086329778420504049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_42
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 139
+        width: 133
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5694ff3458c2d0840800000000000000
+      internalID: 5191854896311126373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_43
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 139
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f28eebf281a1810800000000000000
+      internalID: 1736727199650164519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_44
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 176
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9602c30430e0b10800000000000000
+      internalID: 1949499263119550959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_45
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 171
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a909e32e347b2e0800000000000000
+      internalID: -2110143261408454007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_46
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 124
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d102adcf281b69e0800000000000000
+      internalID: -1627180246771826220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_47
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ea00f86c8205f30800000000000000
+      internalID: 4562191255794134657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_48
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 124
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539df19791c9acd20800000000000000
+      internalID: 3299621310222555445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cernunno_49
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 11
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd62f50fdeb8e840800000000000000
+      internalID: 5253658830414441949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cernunno_0: 1602397943513106165
+      Cernunno_1: 8104548701430056166
+      Cernunno_10: -957971363634047138
+      Cernunno_11: -4901145555548892
+      Cernunno_12: -3288509922420488516
+      Cernunno_13: -7025084502188052348
+      Cernunno_14: -6932756857513880704
+      Cernunno_15: 4066307314319297885
+      Cernunno_16: 3402971319254671211
+      Cernunno_17: -8083511586180396091
+      Cernunno_18: -2952551263288606055
+      Cernunno_19: 1488799670841540417
+      Cernunno_2: -5215785729485460672
+      Cernunno_20: 1722026230244462501
+      Cernunno_21: -371628133250150241
+      Cernunno_22: -4519527467821502018
+      Cernunno_23: 5002706845058493586
+      Cernunno_24: -4670251467774290204
+      Cernunno_25: -5873886353375011250
+      Cernunno_26: -4005068923363027424
+      Cernunno_27: -1455567753584428274
+      Cernunno_28: 8003494509335561740
+      Cernunno_29: 6643056606051876636
+      Cernunno_3: 3282317255874144586
+      Cernunno_30: -6107918761284149542
+      Cernunno_31: 1847567794109749071
+      Cernunno_32: -2682694663976440257
+      Cernunno_33: 2134795476017661905
+      Cernunno_34: 1995707685814603839
+      Cernunno_35: 7917507883511605939
+      Cernunno_36: -924735283606211484
+      Cernunno_37: 800820913745473858
+      Cernunno_38: 3821543171034405065
+      Cernunno_39: 2704351669902761299
+      Cernunno_4: 6902851598583932114
+      Cernunno_40: -4662471615636386271
+      Cernunno_41: -6086329778420504049
+      Cernunno_42: 5191854896311126373
+      Cernunno_43: 1736727199650164519
+      Cernunno_44: 1949499263119550959
+      Cernunno_45: -2110143261408454007
+      Cernunno_46: -1627180246771826220
+      Cernunno_47: 4562191255794134657
+      Cernunno_48: 3299621310222555445
+      Cernunno_49: 5253658830414441949
+      Cernunno_5: -5218512229198473750
+      Cernunno_6: 8998783961843746881
+      Cernunno_7: -959964616082974607
+      Cernunno_8: -5252454265654696639
+      Cernunno_9: 7784156218061570427
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
