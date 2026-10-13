@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f22b4c6f4b7667f7499e30d705c933f7, type: 3}
+  m_Name: Debugio
+  m_EditorClassIdentifier: Assembly-CSharp::Monster
+  speciesId: 0
+  Name: Debugio
+  image: {fileID: 21300000, guid: 0fffa06ec35e107f39e3ba7f3baa3072, type: 3}
+  MainElement: 0
+  SecondaryElement: 9
+  baseHealth: 20
+  baseAttack: 10
+  baseDefense: 60
+  baseSpeed: 10
+  baseSpecial: 10
+  startingMoves:
+  - {fileID: 11400000, guid: 89ac7fcf5d458866eab1db2662d5c309, type: 2}
+  - {fileID: 11400000, guid: ccc8b845dccea0ea0a0a016f3a5f3147, type: 2}
+  - {fileID: 11400000, guid: 3a0f14792a4f559b1a3432c483889bcc, type: 2}
+  - {fileID: 11400000, guid: 21f35636b23eec6a39ee570fe976ad95, type: 2}

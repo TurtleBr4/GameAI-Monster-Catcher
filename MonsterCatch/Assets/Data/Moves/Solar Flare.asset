@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94ab504ccd6bc9c428f33049a08eda66, type: 3}
+  m_Name: Solar Flare
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterMove
+  moveName: Solar Flare
+  description: Yeowch
+  category: 1
+  element: 0
+  power: 200
+  accuracy: 50

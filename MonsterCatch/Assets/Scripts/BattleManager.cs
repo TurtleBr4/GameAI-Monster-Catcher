@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,16 +14,18 @@ public class BattleManager : MonoBehaviour
     public GameObject doubleScene;
     public GameObject singleScene;
 
-    //active battle positions, not the entire party
+    // Active battle positions, not the entire party.
     public MonsterInstance[] enemySlots = new MonsterInstance[2];
     public MonsterInstance[] playerSlots = new MonsterInstance[2];
 
     public bool isDoubleBattle = false;
 
     public event Action<MonsterInstance, bool> OnActionReady;
+    public event Action OnBattleStarted;
+    public event Action OnBattleStateChanged;
 
     [Header("Turn Timing")]
-    [SerializeField] private float speedMultiplier = 100f;
+    [SerializeField] private float speedMultiplier = 10f;
     [SerializeField] private float minimumTurnTime = 0.25f;
 
     private class Combatant
@@ -50,7 +53,6 @@ public class BattleManager : MonoBehaviour
     private readonly Queue<Combatant> readyQueue =
         new Queue<Combatant>();
 
-    private Combatant currentCombatant;
     private bool battleActive;
 
     private void Awake()
@@ -60,7 +62,7 @@ public class BattleManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        else
+        else if (instance != this)
         {
             Destroy(gameObject);
         }
@@ -99,67 +101,56 @@ public class BattleManager : MonoBehaviour
 
         return player != null && enemy != null;
     }
-
+    
+    public void NotifyBattleStateChanged()
+    {
+        OnBattleStateChanged?.Invoke();
+    }
     public void startBattle()
     {
-        //always use the player's current party
         if (GameManager.instance != null)
             player = GameManager.instance.playerParty;
 
         if (player == null || enemy == null)
-        {
             throw new UnityException(
                 "Player or enemy party is missing.");
-        }
 
         if (player.monsters == null || enemy.monsters == null)
-        {
             throw new UnityException(
                 "A party's monster list is missing.");
-        }
 
         int playerLivingCount = CountLivingMonsters(player);
         int enemyLivingCount = CountLivingMonsters(enemy);
 
         if (playerLivingCount == 0 || enemyLivingCount == 0)
-        {
             throw new UnityException(
                 "Both parties must have at least one living monster.");
-        }
 
-        //automatically select single or double battle
-        //both parties must have at least two living monsters
         isDoubleBattle =
             playerLivingCount >= 2 &&
             enemyLivingCount >= 2;
 
         combatants.Clear();
         readyQueue.Clear();
-        currentCombatant = null;
 
         Array.Clear(playerSlots, 0, playerSlots.Length);
         Array.Clear(enemySlots, 0, enemySlots.Length);
 
-        //fill active slots with living monsters
         int activeCount = isDoubleBattle ? 2 : 1;
 
         FillActiveSlots(player, playerSlots, activeCount);
         FillActiveSlots(enemy, enemySlots, activeCount);
 
-        //register the active monsters for turn scheduling
         for (int i = 0; i < activeCount; i++)
         {
             if (playerSlots[i] == null || enemySlots[i] == null)
-            {
                 throw new UnityException(
                     "Failed to fill the active battle slots.");
-            }
 
             AddCombatant(playerSlots[i], true);
             AddCombatant(enemySlots[i], false);
         }
 
-        // Activate the battle scene and the correct layout.
         if (battleScene != null)
             battleScene.SetActive(true);
 
@@ -170,6 +161,9 @@ public class BattleManager : MonoBehaviour
             doubleScene.SetActive(isDoubleBattle);
 
         battleActive = true;
+
+        OnBattleStarted?.Invoke();
+        OnBattleStateChanged?.Invoke();
 
         Debug.Log(isDoubleBattle
             ? "Starting a double battle!"
@@ -213,12 +207,16 @@ public class BattleManager : MonoBehaviour
     }
 
     private void AddCombatant(
-        MonsterInstance monster, bool isPlayer)
+        MonsterInstance monster,
+        bool isPlayer)
     {
         float interval = GetTurnInterval(monster.baseSpeed);
 
+        // Begin at half charge so the opening actions happen sooner.
+        float initialTimer = interval * 0.5f;
+
         combatants.Add(
-            new Combatant(monster, isPlayer, interval));
+            new Combatant(monster, isPlayer, initialTimer));
     }
 
     private float GetTurnInterval(int speed)
@@ -255,51 +253,44 @@ public class BattleManager : MonoBehaviour
 
     private void ProcessReadyQueue()
     {
-        if (currentCombatant != null)
-            return;
-
-        while (readyQueue.Count > 0)
+        // Do not globally lock actions while a player is selecting a move.
+        while (readyQueue.Count > 0 && battleActive)
         {
             Combatant next = readyQueue.Dequeue();
 
             if (next.monster == null ||
                 next.monster.currentHealth <= 0)
             {
+                next.ready = false;
                 continue;
             }
 
-            currentCombatant = next;
-
             OnActionReady?.Invoke(
-                currentCombatant.monster,
-                currentCombatant.isPlayer);
-
-            return;
+                next.monster,
+                next.isPlayer);
         }
     }
 
-    public void CompleteAction()
+    public void CompleteAction(MonsterInstance monster)
     {
-        if (currentCombatant == null)
+        if (monster == null || !battleActive)
             return;
 
-        if (!battleActive)
+        foreach (Combatant combatant in combatants)
         {
-            currentCombatant = null;
+            if (combatant.monster != monster)
+                continue;
+
+            if (monster.currentHealth > 0)
+            {
+                combatant.timer =
+                    GetTurnInterval(monster.baseSpeed);
+
+                combatant.ready = false;
+            }
+
             return;
         }
-
-        if (currentCombatant.monster != null &&
-            currentCombatant.monster.currentHealth > 0)
-        {
-            currentCombatant.timer =
-                GetTurnInterval(
-                    currentCombatant.monster.baseSpeed);
-
-            currentCombatant.ready = false;
-        }
-
-        currentCombatant = null;
     }
 
     public bool battleIsActive()
@@ -313,17 +304,122 @@ public class BattleManager : MonoBehaviour
         {
             Debug.Log("Player has no remaining monsters!");
             endBattle();
+            return;
         }
-        else if (!HasLivingMonsters(enemy))
+
+        if (!HasLivingMonsters(enemy))
         {
             Debug.Log("Enemy has no remaining monsters!");
             endBattle();
+            return;
         }
+
+        ReplaceFaintedMonsters();
     }
 
     private bool HasLivingMonsters(Party party)
     {
         return CountLivingMonsters(party) > 0;
+    }
+
+    private bool ReplaceFaintedMonsters()
+    {
+        bool replacedAny = false;
+        int activeCount = isDoubleBattle ? 2 : 1;
+
+        for (int i = 0; i < activeCount; i++)
+        {
+            if (playerSlots[i] == null ||
+                playerSlots[i].currentHealth <= 0)
+            {
+                playerSlots[i] =
+                    FindNextLivingMonster(player, playerSlots);
+
+                if (playerSlots[i] != null)
+                {
+                    Debug.Log(
+                        "Player sent out " +
+                        playerSlots[i].monsterName + "!");
+
+                    AddCombatantIfMissing(playerSlots[i], true);
+                    replacedAny = true;
+                }
+            }
+
+            if (enemySlots[i] == null ||
+                enemySlots[i].currentHealth <= 0)
+            {
+                enemySlots[i] =
+                    FindNextLivingMonster(enemy, enemySlots);
+
+                if (enemySlots[i] != null)
+                {
+                    Debug.Log(
+                        "Enemy sent out " +
+                        enemySlots[i].monsterName + "!");
+
+                    AddCombatantIfMissing(enemySlots[i], false);
+                    replacedAny = true;
+                }
+            }
+        }
+
+        if (replacedAny)
+            OnBattleStateChanged?.Invoke();
+
+        return replacedAny;
+    }
+
+    private MonsterInstance FindNextLivingMonster(
+        Party party,
+        MonsterInstance[] activeSlots)
+    {
+        foreach (MonsterInstance monster in party.monsters)
+        {
+            if (monster == null || monster.currentHealth <= 0)
+                continue;
+
+            bool alreadyActive = false;
+
+            foreach (MonsterInstance active in activeSlots)
+            {
+                if (active == monster)
+                {
+                    alreadyActive = true;
+                    break;
+                }
+            }
+
+            if (!alreadyActive)
+                return monster;
+        }
+
+        return null;
+    }
+
+    private void AddCombatantIfMissing(
+        MonsterInstance monster,
+        bool isPlayer)
+    {
+        foreach (Combatant combatant in combatants)
+        {
+            if (combatant.monster == monster &&
+                combatant.isPlayer == isPlayer)
+            {
+                // A previously registered monster may have fainted
+                // and later been revived. Ensure its timer can run.
+                if (monster.currentHealth > 0 && combatant.ready)
+                {
+                    combatant.ready = false;
+                    combatant.timer =
+                        GetTurnInterval(monster.baseSpeed);
+                }
+
+                return;
+            }
+        }
+
+        AddCombatant(monster, isPlayer);
     }
 
     public void endBattle()
@@ -333,15 +429,11 @@ public class BattleManager : MonoBehaviour
 
         battleActive = false;
 
-        //save the players final hp after the battle
         if (GameManager.instance != null)
-        {
             GameManager.instance.SaveParty();
-        }
 
         combatants.Clear();
         readyQueue.Clear();
-        currentCombatant = null;
 
         if (battleScene != null)
             battleScene.SetActive(false);
@@ -354,6 +446,8 @@ public class BattleManager : MonoBehaviour
 
         Array.Clear(playerSlots, 0, playerSlots.Length);
         Array.Clear(enemySlots, 0, enemySlots.Length);
+
+        OnBattleStateChanged?.Invoke();
 
         Debug.Log("Battle ended. Player party saved.");
     }

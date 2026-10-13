@@ -11,8 +11,7 @@ public enum EnemyAILevel
 public class EnemyBattleAI : MonoBehaviour
 {
     [Header("AI Settings")]
-    [SerializeField]
-    private EnemyAILevel aiLevel =
+    [SerializeField] private EnemyAILevel aiLevel =
         EnemyAILevel.BasicWildMonster;
 
     [Header("References")]
@@ -28,6 +27,9 @@ public class EnemyBattleAI : MonoBehaviour
             throw new UnityException("BattleManager is missing.");
 
         if (actionResolver == null)
+            actionResolver = FindFirstObjectByType<BattleActionResolver>();
+
+        if (actionResolver == null)
             throw new UnityException("BattleActionResolver is missing.");
 
         battleManager.OnActionReady += HandleActionReady;
@@ -40,10 +42,17 @@ public class EnemyBattleAI : MonoBehaviour
     }
 
     private void HandleActionReady(
-        MonsterInstance monster, bool isPlayer)
+        MonsterInstance monster,
+        bool isPlayer)
     {
         if (isPlayer || monster == null)
             return;
+
+        if (!battleManager.battleIsActive() ||
+            monster.currentHealth <= 0)
+        {
+            return;
+        }
 
         List<MonsterMove> availableMoves =
             new List<MonsterMove>();
@@ -59,7 +68,7 @@ public class EnemyBattleAI : MonoBehaviour
             Debug.LogWarning(
                 monster.monsterName + " has no available moves.");
 
-            battleManager.CompleteAction();
+            battleManager.CompleteAction(monster);
             return;
         }
 
@@ -94,9 +103,7 @@ public class EnemyBattleAI : MonoBehaviour
             return SelectRandomMove(availableMoves);
 
         float bestScore = float.MinValue;
-
-        List<MonsterMove> bestMoves =
-            new List<MonsterMove>();
+        List<MonsterMove> bestMoves = new List<MonsterMove>();
 
         foreach (MonsterMove move in availableMoves)
         {
@@ -119,9 +126,10 @@ public class EnemyBattleAI : MonoBehaviour
 
         int index = Random.Range(0, bestMoves.Count);
 
-        Debug.Log(attacker.monsterName +
-                  " selected " + bestMoves[index].moveName +
-                  " with an estimated score of " + bestScore + ".");
+        Debug.Log(
+            attacker.monsterName + " selected " +
+            bestMoves[index].moveName +
+            " with an estimated score of " + bestScore + ".");
 
         return bestMoves[index];
     }
@@ -152,8 +160,20 @@ public class EnemyBattleAI : MonoBehaviour
             1,
             move.power + attackStat / 2 - defenseStat / 2);
 
-        return estimatedDamage *
-               Mathf.Clamp(move.accuracy, 0, 100) / 100f;
+        float effectiveness = TypeChart.GetEffectiveness(
+            move.type,
+            target.primaryType);
+
+        if (target.hasSecondaryType)
+        {
+            effectiveness *= TypeChart.GetEffectiveness(
+                move.type,
+                target.secondaryType);
+        }
+
+        float accuracy = Mathf.Clamp(move.accuracy, 0, 100) / 100f;
+
+        return estimatedDamage * effectiveness * accuracy;
     }
 
     private MonsterInstance GetTarget()
@@ -171,5 +191,10 @@ public class EnemyBattleAI : MonoBehaviour
         }
 
         return null;
+    }
+
+    public void SetAILevel(EnemyAILevel level)
+    {
+        aiLevel = level;
     }
 }

@@ -15,6 +15,10 @@ public class MonsterInstance
     public int baseDefense;
     public int baseSpeed;
     public int baseSpecial;
+    [Header("Types")]
+    public Element primaryType;
+    public bool hasSecondaryType;
+    public Element secondaryType;
 
     public MonsterMove[] moves = new MonsterMove[MaxMoves];
 

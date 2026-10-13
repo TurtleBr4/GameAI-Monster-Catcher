@@ -7,6 +7,20 @@ public enum MoveCategory
     Status
 }
 
+public enum Element
+{
+    Fire,
+    Water,
+    Nature,
+    Ice,
+    Metal,
+    Thunder,
+    Wind,
+    Aether,
+    Earth,
+    None
+}
+
 [CreateAssetMenu(fileName = "New Move", menuName = "Battle/Move")]
 public class MonsterMove : ScriptableObject
 {
@@ -16,6 +30,7 @@ public class MonsterMove : ScriptableObject
 
     [Header("Combat")]
     public MoveCategory category;
+    public Element type;
     public int power;
     public int accuracy = 100;
 }

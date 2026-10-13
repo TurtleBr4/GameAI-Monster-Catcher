@@ -17,15 +17,15 @@ public class BattleActionResolver : MonoBehaviour
         bool isPlayer)
     {
         if (battleManager == null)
-        {
-            Debug.LogError("BattleManager is missing.");
-            return;
-        }
+            battleManager = BattleManager.instance;
 
-        if (attacker == null || move == null)
+        if (attacker == null || !battleManager.battleIsActive())
+            return;
+
+        if (move == null)
         {
-            Debug.LogError("Attacker or move is missing.");
-            battleManager.CompleteAction();
+            Debug.Log(attacker.monsterName + " has no available move!");
+            FinishAction(attacker);
             return;
         }
 
@@ -33,26 +33,24 @@ public class BattleActionResolver : MonoBehaviour
 
         if (target == null)
         {
-            Debug.Log("No valid targets remain.");
-            battleManager.CheckBattleEnd();
-            battleManager.CompleteAction();
+            FinishAction(attacker);
             return;
         }
 
-        Debug.Log(attacker.monsterName + " used " +
-                  move.moveName + "!");
+        Debug.Log(
+            attacker.monsterName + " used " + move.moveName + "!");
 
         if (Random.Range(1, 101) > move.accuracy)
         {
             Debug.Log(move.moveName + " missed!");
-            FinishAction();
+            FinishAction(attacker);
             return;
         }
 
         if (move.category == MoveCategory.Status)
         {
-            Debug.Log("Status effects are not implemented yet.");
-            FinishAction();
+            Debug.Log("Status moves are not implemented yet.");
+            FinishAction(attacker);
             return;
         }
 
@@ -66,7 +64,6 @@ public class BattleActionResolver : MonoBehaviour
         }
         else
         {
-            // Special is used for both special attack and defense.
             attackStat = attacker.baseSpecial;
             defenseStat = target.baseSpecial;
         }
@@ -75,21 +72,35 @@ public class BattleActionResolver : MonoBehaviour
             1,
             move.power + attackStat / 2 - defenseStat / 2);
 
-        target.currentHealth = Mathf.Max(
-            0,
-            target.currentHealth - damage);
+        float effectiveness = TypeChart.GetEffectiveness(
+            move.type,
+            target.primaryType);
 
-        Debug.Log(target.monsterName + " took " +
-                  damage + " damage. HP: " +
-                  target.currentHealth + "/" +
-                  target.maxHealth);
-
-        if (target.currentHealth <= 0)
+        if (target.hasSecondaryType)
         {
-            Debug.Log(target.monsterName + " fainted!");
+            effectiveness *= TypeChart.GetEffectiveness(
+                move.type,
+                target.secondaryType);
         }
 
-        FinishAction();
+        damage = Mathf.Max(
+            1,
+            Mathf.RoundToInt(damage * effectiveness));
+
+        target.TakeDamage(damage);
+
+        Debug.Log(
+            target.monsterName + " took " + damage + " damage!");
+
+        if (effectiveness > 1f)
+            Debug.Log("It's super effective!");
+        else if (effectiveness < 1f)
+            Debug.Log("It's not very effective...");
+
+        if (target.IsFainted())
+            Debug.Log(target.monsterName + " fainted!");
+
+        FinishAction(attacker);
     }
 
     private MonsterInstance GetTarget(bool isPlayer)
@@ -112,11 +123,12 @@ public class BattleActionResolver : MonoBehaviour
         return null;
     }
 
-    private void FinishAction()
+    private void FinishAction(MonsterInstance attacker)
     {
         battleManager.CheckBattleEnd();
+        battleManager.NotifyBattleStateChanged();
 
         if (battleManager.battleIsActive())
-            battleManager.CompleteAction();
+            battleManager.CompleteAction(attacker);
     }
 }

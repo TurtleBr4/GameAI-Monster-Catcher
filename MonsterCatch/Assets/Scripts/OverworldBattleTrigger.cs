@@ -7,15 +7,26 @@ public class OverworldBattleTrigger : MonoBehaviour
     [SerializeField] private Monster[] enemySpecies;
     [SerializeField] private bool triggerOnce = true;
 
-    private bool hasTriggered;
+    [SerializeField]private bool hasTriggered;
+    [Header("Enemy AI")]
+    [SerializeField] private EnemyAILevel aiLevel =
+        EnemyAILevel.BasicWildMonster;
+    
+    public bool debugFlag = false;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
+        
         if (hasTriggered)
             return;
 
         if (!other.CompareTag("Player"))
             return;
+
+        if (debugFlag && GameManager.instance.playerParty.monsters.Count == 0)
+        {
+            GameManager.instance.AddMonsterToPlayerParty(enemySpecies[0]);
+        }
 
         if (enemySpecies == null || enemySpecies.Length == 0)
         {
@@ -57,6 +68,8 @@ public class OverworldBattleTrigger : MonoBehaviour
         // Give the enemy party to the battle system.
         GameManager.instance.takeInEnemyBattleInformation(
             enemyParty);
+        
+        GameManager.instance.SetBattleAILevel(aiLevel);
 
         // Start the battle.
         GameManager.instance.toggleState(GameState.Battle);

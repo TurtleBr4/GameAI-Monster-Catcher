@@ -23,6 +23,12 @@ public class GameManager : MonoBehaviour
 
     [Header("Save System")]
     [SerializeField] private Monster[] monsterDatabase;
+    
+    [Header("Battle AI")]
+    [SerializeField] private EnemyBattleAI enemyBattleAI;
+
+    private EnemyAILevel nextBattleAILevel =
+        EnemyAILevel.BasicWildMonster;
 
     private string SavePath
     {
@@ -85,6 +91,11 @@ public class GameManager : MonoBehaviour
         }
 
         LoadParty();
+    }
+    
+    public void SetBattleAILevel(EnemyAILevel level)
+    {
+        nextBattleAILevel = level;
     }
 
     public MonsterInstance CreateMonster(Monster species)
@@ -304,6 +315,17 @@ public class GameManager : MonoBehaviour
                 Debug.LogError("BattleManager is not ready.");
                 return;
             }
+            
+            if (enemyBattleAI == null)
+                enemyBattleAI = FindFirstObjectByType<EnemyBattleAI>();
+
+            if (enemyBattleAI == null)
+            {
+                Debug.LogError("EnemyBattleAI is missing.");
+                return;
+            }
+
+            enemyBattleAI.SetAILevel(nextBattleAILevel);
 
             battleManager.startBattle();
         }
@@ -353,4 +375,6 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("The player's party has been fully healed!");
     }
+    
+    
 }
