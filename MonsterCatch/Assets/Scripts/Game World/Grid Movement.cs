@@ -10,12 +10,19 @@ public class GridMovement : MonoBehaviour
     [SerializeField]
     private float runspeed;  
 
-    private bool moving; //useful for animating
+    public bool moving; //useful for animating
+    private bool moveoverride; //for when the player is having dialog and stuff
+
+    private void Awake()
+    {
+        moveoverride = false;
+        moving = false;
+    }
 
     private void FixedUpdate()
     {
         //check if sprinting in between movement
-        if (!moving)
+        if (!moving && !moveoverride)
         {
             if (Input.GetKey(KeyCode.LeftControl))
             {
@@ -30,10 +37,10 @@ public class GridMovement : MonoBehaviour
             {
                 if (direction == 0)
                 {
-                    //add collision check here
-                    if (!Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), Vector2.up, 1f))
+                    if (!Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y+0.5f), Vector2.up, 0.5f))
                     {
                         StartCoroutine(Move(0));
+                        //add walk/run animation here, all necessary variables should be assigned already
                     }
                 }
                 else
@@ -46,10 +53,10 @@ public class GridMovement : MonoBehaviour
             {
                 if (direction == 1)
                 {
-                    //add collision check here
-                    if (!Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), Vector2.left, 1f))
+                    if (!Physics2D.Raycast(new Vector2(transform.position.x-0.5f, transform.position.y), Vector2.left, 0.5f))
                     {
                         StartCoroutine(Move(1));
+                        //add walk/run animation here, all necessary variables should be assigned already
                     }
                 }
                 else
@@ -62,10 +69,10 @@ public class GridMovement : MonoBehaviour
             {
                 if (direction == 2)
                 {
-                    //add collision check here
-                    if (!Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), Vector2.down, 1f))
+                    if (!Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y-0.5f), Vector2.down, 0.5f))
                     {
                         StartCoroutine(Move(2));
+                        //add walk/run animation here, all necessary variables should be assigned already
                     }
                 }
                 else
@@ -78,10 +85,10 @@ public class GridMovement : MonoBehaviour
             {
                 if (direction == 3)
                 {
-                    //add collision check here
-                    if (!Physics2D.Raycast(new Vector2(transform.position.x,transform.position.y), Vector2.right, 1f))
+                    if (!Physics2D.Raycast(new Vector2(transform.position.x+0.5f,transform.position.y), Vector2.right, 0.5f))
                     {
                         StartCoroutine(Move(3));
+                        //add walk/run animation here, all necessary variables should be assigned already
                     }
                 }
                 else
@@ -137,8 +144,8 @@ public class GridMovement : MonoBehaviour
         return;
     }
 
-    private void StopMoving()
+    public void SetMoveOverride(bool moveoverride)
     {
-        moving = false;
+        this.moveoverride = moveoverride;
     }
 }
