@@ -1,15 +1,20 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Monster", menuName = "Scriptable Objects/Monster")]
+[CreateAssetMenu(fileName = "New Monster", menuName = "Battle/Monster")]
 public class Monster : ScriptableObject
 {
-    [Header("Basic Info")]
+    [Header("Identity")]
+    public string speciesId;
     public string Name;
-    public Sprite Image;
+    public Sprite image;
 
-    public int baseHealth;
-    public int baseAttack;
-    public int baseDefense;
-    public int baseSpeed;
-    public int baseSpecial;
+    [Header("Base Stats")]
+    public int baseHealth = 20;
+    public int baseAttack = 10;
+    public int baseDefense = 10;
+    public int baseSpeed = 10;
+    public int baseSpecial = 10;
+
+    [Header("Starting Moves")]
+    public MonsterMove[] startingMoves = new MonsterMove[4];
 }

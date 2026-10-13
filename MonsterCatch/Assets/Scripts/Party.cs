@@ -1,29 +1,41 @@
-using System;
-using UnityEngine;
+using System.Collections.Generic;
 
-public class Party : MonoBehaviour
+[System.Serializable]
+public class Party
 {
-    [Header(("Basic Settings"))] [SerializeField]
-    private int partySize;
-    public static readonly int maxPartySize = 6;
-    [SerializeField] private int activeSlots;
-    
-    [Header("Dynamic Info")]
-    [SerializeField] private MonsterBattleInstance[] partyMonsters = new MonsterBattleInstance[maxPartySize];
-    [SerializeField] private bool allDead = false;
+    public const int MaxPartySize = 6;
 
-    /// <summary>
-    /// Call this function when the game transitions to a battle, once per party (so once from the player side and once for the enemy)
-    /// </summary>
-    /// <param name="monsters"></param>
-    public void initializeParty(MonsterBattleInstance[] monsters) 
+    public List<MonsterInstance> monsters =
+        new List<MonsterInstance>();
+
+    public bool AddMonster(MonsterInstance monster)
     {
-        Array.Copy(monsters, partyMonsters, monsters.Length);
-        partySize = monsters.Length;
+        if (monster == null)
+            return false;
+
+        if (monsters.Count >= MaxPartySize)
+            return false;
+
+        monsters.Add(monster);
+        return true;
     }
 
-    public MonsterBattleInstance[] getMonsters()
+    public MonsterInstance GetMonster(int index)
     {
-        return partyMonsters;
+        if (index < 0 || index >= monsters.Count)
+            return null;
+
+        return monsters[index];
+    }
+
+    public bool HasLivingMonsters()
+    {
+        foreach (MonsterInstance monster in monsters)
+        {
+            if (monster != null && monster.currentHealth > 0)
+                return true;
+        }
+
+        return false;
     }
 }
