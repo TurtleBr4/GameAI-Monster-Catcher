@@ -40,7 +40,7 @@ public class OverworldBattleTrigger : MonoBehaviour
             return;
         }
 
-        // Create a new enemy party for this encounter.
+        //create a new enemy party for this encounter.
         Party enemyParty = new Party();
 
         foreach (Monster species in enemySpecies)
@@ -65,13 +65,13 @@ public class OverworldBattleTrigger : MonoBehaviour
             return;
         }
 
-        // Give the enemy party to the battle system.
+        //give the enemy party to the battle system.
         GameManager.instance.takeInEnemyBattleInformation(
             enemyParty);
         
         GameManager.instance.SetBattleAILevel(aiLevel);
 
-        // Start the battle.
+        //start the battle.
         GameManager.instance.toggleState(GameState.Battle);
 
         hasTriggered = triggerOnce;

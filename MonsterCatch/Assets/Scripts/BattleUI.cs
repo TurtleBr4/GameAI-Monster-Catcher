@@ -27,6 +27,11 @@ public class BattleUI : MonoBehaviour
     [SerializeField] private TMP_Text enemyMonsterName;
     [SerializeField] private TMP_Text enemyHealthText;
     [SerializeField] private Slider enemyHealthBar;
+    
+    [Header("Timer UI")]
+    [SerializeField] private Slider[] playerTimerBars = new Slider[2];
+    [SerializeField] private Slider[] enemyTimerBars = new Slider[2];
+
 
     private UnityAction[] buttonListeners;
 
@@ -78,6 +83,101 @@ public class BattleUI : MonoBehaviour
 
         RefreshBattleUI();
     }
+    
+    private void Update()
+    {
+        UpdateTimerUI();
+    }
+
+    private void UpdateTimerUI()
+    {
+        if (battleManager == null)
+            return;
+
+        int count = 1;
+        if (battleManager.isDoubleBattle)
+        {
+            count = 2;
+        }
+        
+        for (int i = 0; i < count; i++)
+        {
+            bool slotIsActive = i == 0 || battleManager.isDoubleBattle;
+
+            UpdateTimerDisplay(
+                battleManager.playerSlots[i],
+                slotIsActive,
+                playerTimerBars[i]);
+
+            UpdateTimerDisplay(
+                battleManager.enemySlots[i],
+                slotIsActive,
+                enemyTimerBars[i]);
+        }
+    }
+
+    private void UpdateTimerDisplay(
+        MonsterInstance monster,
+        bool slotIsActive,
+        Slider timerBar)
+    {
+        if (timerBar == null)
+            return;
+
+        bool showTimer =
+            slotIsActive &&
+            monster != null &&
+            monster.currentHealth > 0;
+
+        timerBar.gameObject.SetActive(showTimer);
+
+        if (!showTimer)
+            return;
+
+        timerBar.minValue = 0f;
+        timerBar.maxValue = 1f;
+        timerBar.value = battleManager.GetTimerProgress(monster);
+    }
+
+
+    private void UpdateTimerDisplay(
+        MonsterInstance monster,
+        bool slotIsActive,
+        Slider timerBar,
+        TMP_Text timerLabel)
+    {
+        bool showTimer =
+            slotIsActive &&
+            monster != null &&
+            monster.currentHealth > 0;
+
+        if (timerBar != null)
+        {
+            timerBar.gameObject.SetActive(showTimer);
+
+            if (showTimer)
+            {
+                timerBar.minValue = 0f;
+                timerBar.maxValue = 1f;
+                timerBar.value = battleManager.GetTimerProgress(monster);
+            }
+        }
+
+        if (timerLabel != null)
+        {
+            timerLabel.gameObject.SetActive(showTimer);
+
+            if (showTimer)
+            {
+                bool ready = battleManager.IsMonsterReady(monster);
+
+                timerLabel.text = ready
+                    ? "READY!"
+                    : Mathf.RoundToInt(
+                        battleManager.GetTimerProgress(monster) * 100f) + "%";
+            }
+        }
+    }
 
     private void OnDestroy()
     {
@@ -108,7 +208,7 @@ public class BattleUI : MonoBehaviour
     {
         RefreshBattleUI();
 
-        // The AI handles enemy actions. Do not close the player's menu.
+        
         if (!isPlayer || monster == null)
             return;
 

@@ -14,7 +14,7 @@ public class BattleManager : MonoBehaviour
     public GameObject doubleScene;
     public GameObject singleScene;
 
-    // Active battle positions, not the entire party.
+    //active battle positions, not the entire party.
     public MonsterInstance[] enemySlots = new MonsterInstance[2];
     public MonsterInstance[] playerSlots = new MonsterInstance[2];
 
@@ -102,6 +102,45 @@ public class BattleManager : MonoBehaviour
         return player != null && enemy != null;
     }
     
+    
+    public float GetTimerProgress(MonsterInstance monster)
+    {
+        if (monster == null)
+            return 0f;
+
+        foreach (Combatant combatant in combatants)
+        {
+            if (combatant.monster != monster)
+                continue;
+
+            if (combatant.ready)
+                return 1f;
+
+            float interval = GetTurnInterval(monster.baseSpeed);
+
+            if (interval <= 0f || interval == float.MaxValue)
+                return 0f;
+
+            return Mathf.Clamp01(1f - combatant.timer / interval);
+        }
+
+        return 0f;
+    }
+
+    public bool IsMonsterReady(MonsterInstance monster)
+    {
+        if (monster == null)
+            return false;
+
+        foreach (Combatant combatant in combatants)
+        {
+            if (combatant.monster == monster)
+                return combatant.ready;
+        }
+
+        return false;
+    }
+
     public void NotifyBattleStateChanged()
     {
         OnBattleStateChanged?.Invoke();
@@ -212,7 +251,7 @@ public class BattleManager : MonoBehaviour
     {
         float interval = GetTurnInterval(monster.baseSpeed);
 
-        // Begin at half charge so the opening actions happen sooner.
+        //begin at half charge so the opening actions happen sooner.
         float initialTimer = interval * 0.5f;
 
         combatants.Add(
@@ -253,7 +292,7 @@ public class BattleManager : MonoBehaviour
 
     private void ProcessReadyQueue()
     {
-        // Do not globally lock actions while a player is selecting a move.
+        //do not globally lock actions while a player is selecting a move.
         while (readyQueue.Count > 0 && battleActive)
         {
             Combatant next = readyQueue.Dequeue();
@@ -406,8 +445,8 @@ public class BattleManager : MonoBehaviour
             if (combatant.monster == monster &&
                 combatant.isPlayer == isPlayer)
             {
-                // A previously registered monster may have fainted
-                // and later been revived. Ensure its timer can run.
+                //previously registered monster may have fainted
+                //and later been revived. Ensure its timer can run.
                 if (monster.currentHealth > 0 && combatant.ready)
                 {
                     combatant.ready = false;

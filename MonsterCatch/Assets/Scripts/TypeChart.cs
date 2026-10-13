@@ -82,7 +82,7 @@ public static class TypeChart
             defenderType == Element.Earth)
             return 0.5f;
 
-        // Different triangles have no advantage over each other.
+        //different triangles have no advantage over each other.
         return 1f;
     }
 }
